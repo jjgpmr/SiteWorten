@@ -1,0 +1,62 @@
+:root{
+    --vermelho: #E51B15;
+    --branco: #fff;
+    --preto: #000;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.btn:hover{
+    background-color: var(--branco);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
+
+header{
+    background-color: var(--vermelho);
+    color: var(--preto) !important;
+    border-color: var(--branco) !important;
+}
+
+nav input{
+    background-color: var(--branco) !important;
+}
+
+.card-title{
+    min-height: 220px;
+}
+
+.badge{
+    background-color: var(--vermelho);
+}
+
+.carousel-caption h5,
+.carousel-caption p{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer{
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+footer a{
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer a:hover{
+    color: var(--vermelho);
+    background-color: var(--branco);
+
+}
